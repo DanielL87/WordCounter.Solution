@@ -1,0 +1,3 @@
+C:\Users\DA FUQ\desktop\WordCounter.Solution\WordCount\bin\Debug\netcoreapp1.1\WordCount.deps.json
+C:\Users\DA FUQ\desktop\WordCounter.Solution\WordCount\obj\Debug\netcoreapp1.1\WordCount.csproj.CoreCompileInputs.cache
+C:\Users\DA FUQ\desktop\WordCounter.Solution\WordCount\obj\Debug\netcoreapp1.1\WordCount.AssemblyInfo.cs
