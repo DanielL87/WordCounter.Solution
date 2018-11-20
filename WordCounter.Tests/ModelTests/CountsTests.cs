@@ -16,11 +16,11 @@ namespace WordCounter.Tests
     public void Counter_CheckForInstanceOfWordInSentence_int()
     {
       WordCount myWord = new WordCount();
-      string Word = "Hello";
-      string Sentence = "Hello There";
+      string Word = "dog";
+      string Sentence = "My dog is a dog";
       
 
-      Assert.AreEqual(1, myWord.countWords(Word,Sentence));
+      Assert.AreEqual(2, myWord.countWords(Word,Sentence));
     }  
   }
 }

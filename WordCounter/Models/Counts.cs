@@ -24,14 +24,14 @@ namespace WordApp
     {
 
       string [] userSentenceSplit = sentence.Split(' ').ToArray();
+      
       int counter = 0;
-      for (int x = 0; x <= userSentenceSplit.Length;x++)
+      for (int x = 0; x < userSentenceSplit.Length;x++)
       {
         if(userSentenceSplit[x] == userWord)
         {
           counter++;
         }
-        return counter;
       }
      return counter;
     }
