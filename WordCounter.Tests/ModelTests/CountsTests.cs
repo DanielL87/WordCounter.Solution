@@ -1,17 +1,29 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordApp;
+using WordApp.Models;
+using System.Collections.Generic;
+using System;
 
 namespace WordCounter.Tests
 {
   [TestClass]
   public class WordCounterTest
   {
+
+    [TestMethod]
+    public void InputConstructor_TypeOfInput_Type()
+    {
+      WordCounter newWord = new WordCounter("test", "test two");
+      Assert.AreEqual(typeof(WordCounter), newWord.GetType());
+    } 
+
    [TestMethod]
     public void WordInput_TestThatWordisString_string()
     {
-      WordCount myWord = new WordCount();
+      WordCounter myWord = new WordCounter("word", "sentence");
       Assert.AreEqual("string", myWord.wordInput("string"));
     }
+
+
    [TestMethod]
     public void Counter_CheckForInstanceOfWordInSentence_int()
     {
