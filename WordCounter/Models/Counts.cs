@@ -4,16 +4,9 @@ using System.Linq;
 namespace WordApp
 { 
 
-    public class Program
-  {
-    public static void Main()
-    {
-      WordCount myCount = new WordCount();
-    }
-  }
-
   public class WordCount
   {
+    
     public string wordInput(string word)
     {
       return word;

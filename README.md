@@ -1,30 +1,40 @@
-Word Counter
+# _Word Counter_
 
-Independent Project for Epicodus
+#### _Word Count Program Using C#, .NET and MVC, November 30, 2018_
 
-by: Daniel Lira , 11/16/18
+#### By _**Daniel Lira**_
 
-Description:
-Program has user enter Word of Choice, then Enters a Sentence, program should then split up the sentence and compare each word to initial word. Finally, program should output number of instances of first words found in sentence.
+## Description
+
+_A C# application that allows users to enter both a sentence and a word, the program will then count the occurences of the word in said phrase._
+
+## Setup/Installation Requirements
+
+*  _Clone this repository_
+* _Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and install them._
+* _Change into the work directory:: $ cd WordCounter.Solutions_
+* _To edit the project, open the project in your preferred text editor._
+* _To run the program, first navigate to the location of the WordCounter file then run dotnet restore, dotnet build, and dotnet run._
+* _When program is running open a web browser and go to localhost:5000 to view program._
+* _To run the tests navigate to the Music.Tests folder and use these commands: $ dotnet restore and dotnet test._ 
+
+## Support and contact details
+
+* _Daniel Lira - devidra87@gmail.com_
 
 
-Set-up
-Clone This Repository or Click on the Link Below.
-Then Simply enter the inofrmation asked for and see Awesome-O
-Respond in Kind
+## Technologies Used
 
-https://daniell87.github.io/beep-boop/.
+* _C#_
+* _.NET_
+* _MSTests_
+* _MVC_
+* _Razor_
+* _Mono_
 
-Technologies Used:
-- Git
-- Atom
-- C#
+### License
 
+*This software is licensed under the MIT license.*
 
-Known Bugs
-** None known at this Time **
+Copyright (c) 2018 **_Daniel Lira_**
 
-License
-Free for Public Use
-
-Please feel free to contact me at devidra87@gmail.com
