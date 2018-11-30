@@ -6,3 +6,5 @@ C:\Users\DA FUQ\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1
 C:\Users\DA FUQ\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
 C:\Users\DA FUQ\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
 C:\Users\DA FUQ\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\DA FUQ\Desktop\WordCounter.Solution\wordcounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
+C:\Users\DA FUQ\Desktop\WordCounter.Solution\wordcounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json

@@ -3,7 +3,7 @@ using WordApp.Models;
 using System.Collections.Generic;
 using System;
 
-namespace WordCounter.Tests
+namespace WordApp.Tests
 {
   [TestClass]
   public class WordCounterTest
@@ -17,20 +17,12 @@ namespace WordCounter.Tests
     } 
 
    [TestMethod]
-    public void WordInput_TestThatWordisString_string()
-    {
-      WordCounter myWord = new WordCounter("word", "sentence");
-      Assert.AreEqual("string", myWord.wordInput("string"));
-    }
-
-
-   [TestMethod]
     public void Counter_CheckForInstanceOfWordInSentence_int()
     {
-      WordCount myWord = new WordCount();
+
       string Word = "dog";
       string Sentence = "My dog is a dog";
-      
+      WordCounter myWord = new WordCounter(Word, Sentence);
 
       Assert.AreEqual(2, myWord.countWords(Word,Sentence));
     }  

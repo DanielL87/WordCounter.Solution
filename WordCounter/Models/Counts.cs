@@ -1,5 +1,7 @@
 
 using System.Collections.Generic;
+using System;
+using System.Linq;
 
 namespace WordApp.Models
 { 
@@ -9,7 +11,7 @@ namespace WordApp.Models
   {
     private string _wordInput;
     private string _sentenceInput;
-    private int _wordCount;
+    private int _wordCount = 0;
 
     public WordCounter(string wordInput, string sentenceInput)
     {
@@ -22,20 +24,30 @@ namespace WordApp.Models
       return _wordInput;
     }
 
+    public string GetSentence()
+    {
+      return _sentenceInput;
+    }
+
+    public int GetWordCount()
+    {
+      return _wordCount;
+    }
+
      public int countWords(string userWord, string sentence)
     {
 
       string [] userSentenceSplit = sentence.Split(' ').ToArray();
       
-      int counter = 0;
+      int _wordcounter = 0;
       for (int x = 0; x < userSentenceSplit.Length;x++)
       {
         if(userSentenceSplit[x] == userWord)
         {
-          counter++;
+          _wordcounter++;
         }
       }
-     return counter;
+     return _wordcounter;
     }
   }
 }  
