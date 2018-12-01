@@ -34,15 +34,15 @@ namespace WordApp.Models
       return _wordCount;
     }
 
-     public int countWords(string userWord, string sentence)
+    public int CountWords()
     {
 
-      string [] userSentenceSplit = sentence.Split(' ').ToArray();
+      string [] userSentenceSplit = _sentenceInput.Split(' ').ToArray();
       
       int _wordcounter = 0;
       for (int x = 0; x < userSentenceSplit.Length;x++)
       {
-        if(userSentenceSplit[x] == userWord)
+        if(userSentenceSplit[x] ==  _wordInput)
         {
           _wordcounter++;
         }

@@ -19,5 +19,12 @@ namespace WordApp.Controllers
       return View();
     }
 
+    [HttpPost("/wordcounter")]
+    public ActionResult Create(string word, string sentence)
+    {
+      WordCounter myInput = new WordCounter(word, sentence);
+      return View("Show", myInput);  
+    }
+
   }
 }

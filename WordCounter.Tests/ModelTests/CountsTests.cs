@@ -20,11 +20,11 @@ namespace WordApp.Tests
     public void Counter_CheckForInstanceOfWordInSentence_int()
     {
 
-      string Word = "dog";
-      string Sentence = "My dog is a dog";
-      WordCounter myWord = new WordCounter(Word, Sentence);
+      string word = "dog";
+      string sentence = "My dog is a dog";
+      WordCounter myWord = new WordCounter(word, sentence);
 
-      Assert.AreEqual(2, myWord.countWords(Word,Sentence));
+      Assert.AreEqual(2, myWord.CountWords(word,sentence));
     }  
   }
 }
