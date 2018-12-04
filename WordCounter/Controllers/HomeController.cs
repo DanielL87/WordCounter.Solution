@@ -3,8 +3,8 @@ using WordApp.Models;
 
 namespace WordApp.Controllers
 {
-  public class HomeController : Controller
-  {
+    public class HomeController : Controller
+    {
 
     [HttpGet("/")]
     public ActionResult Index()
@@ -12,19 +12,5 @@ namespace WordApp.Controllers
       WordCounter starterItem = new WordCounter("Add first item to To Do List", "Hello");
       return View(starterItem);
     }
-
-    [HttpGet("/wordcounter/new")]
-    public ActionResult New()
-    {
-      return View();
-    }
-
-    [HttpPost("/wordcounter")]
-    public ActionResult Create(string word, string sentence)
-    {
-      WordCounter myInput = new WordCounter(word, sentence);
-      return View("Show", myInput);  
-    }
-
-  }
-}
+   }
+}      
