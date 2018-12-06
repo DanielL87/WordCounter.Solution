@@ -8,6 +8,15 @@
 
 _A C# application that allows users to enter both a sentence and a word, the program will then count the occurences of the word in said phrase._
 
+### Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| Program can identify user's inputted word | "dogs" | Your word is: dogs  |
+| Program can identify user's inputted sentence | "I love dogs" | Your sentence is: I love dogs  |
+| Program can identify when the word is in the sentence | "dogs", "I like dogs" | Your word appears in your sentence 1 time |
+| Program counts the number of times the word is in the sentence | "car", "My car is faster than your car" | Your word appears in your sentence 2 times  | 
+| Program does not count words contained in other words | "read", "is everyone ready?" | Your word does not appear in your sentence |
+
 ## Setup/Installation Requirements
 
 *  _Clone this repository_
